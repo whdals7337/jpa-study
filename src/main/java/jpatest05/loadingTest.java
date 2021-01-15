@@ -9,7 +9,7 @@ import java.util.List;
 public class loadingTest {
     public static void main(String[] args) {
         // persistence.xml 의 persistence-unit 을 받아서 EntityManagerFactory 생성 - 하나만 생성해서 전체 어플리케이션 공유
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");
+        EntityManagerFactory emf = Persistence.createEntityManagerFactory("test05");
 
         //EntityManagerFactory 에서 EntityManager 생성 - 쓰레드간에 공유 X (사용하고 버려야함)
         EntityManager em = emf.createEntityManager();
