@@ -1,7 +1,10 @@
-인프런 
-자바 ORM 표준 JPA 프로그래밍 기본편 - 김영한님 study project
+자바 ORM 표준 JPA 프로그래밍 기본편 - 김영한님
 
-jpa 사용시 유의사항
+https://www.inflearn.com/course/ORM-JPA-Basic
+
+실습 정리 study project
+
+jpa 사용시 유의사항 정리
 
 1. 로컬을 제외한 환경에서 hibernate.hbm2ddl.auto 사용하지 말아라.
 2. 우선 단방향으로 설계하고 필요할 경우에 양방향을 추가
